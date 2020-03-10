@@ -1,6 +1,6 @@
 ## Contributing
 
-Utiliser le systèmes des issues.
+Utiliser le systèmes des [issues](https://github.com/adriens/livre-or-collaborateurs-glia-slideshow/issues).
 
 
 ## Règles du jeu
