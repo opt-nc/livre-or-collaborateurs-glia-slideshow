@@ -24,7 +24,7 @@ Le jeu consiste à alimenter ce slideshow par du code, et que ce soit agréable 
 
 # Contact
 
-Passer par les issues Github du projet.
+Passer par les [issues Github](https://github.com/adriens/livre-or-collaborateurs-glia-slideshow/issues) du projet.
 
 
 
