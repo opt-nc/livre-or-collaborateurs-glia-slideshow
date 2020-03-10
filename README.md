@@ -1,4 +1,4 @@
-# livre-or-collaborateurs-glia-slideshow
+# Livre d'or des collaborateurs du GLIA
 
 
 Ceci est le livre d'or des collaborateurs qui ont contribué au développement du [bureau GLIA](https://www.linkedin.com/posts/adrien-sales_paroles-dagent-adrien-sales-activity-6636763415731896320-PSkG), à la de la
