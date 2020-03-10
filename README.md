@@ -10,7 +10,12 @@ qui leur ont apporté le plus de plaisir.
 
 # Pourquoi un livre d'or
 
-Les bureau dépend largement sur ses contributeurs et collaborateurs. Nous pourrons ainsi se
+Les bureau dépend largement sur ses contributeurs et collaborateurs. Nous pourrons ainsi nous souvenir des
+personnes qui ont apporté leurs idées et savoir faires à notre équipe.
+
+L'idée est également de permettre à chacun de partager les projets ou les idées qu'ils
+ont pris le plus de plaisir à partager. Il ne s'agit donc pas de faire une liste
+exhaustive, mais bien remonter ceux que vous avez préféré.
 
 # Règles du jeu
 
