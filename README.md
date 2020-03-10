@@ -1,4 +1,4 @@
-# livre-or-collaborateurs-glia-slideshow
+# Livre d'or des collaborateurs du GLIA
 
 
 Ceci est le livre d'or des collaborateurs qui ont contribué au développement du [bureau GLIA](https://www.linkedin.com/posts/adrien-sales_paroles-dagent-adrien-sales-activity-6636763415731896320-PSkG), à la de la
@@ -10,7 +10,12 @@ qui leur ont apporté le plus de plaisir.
 
 # Pourquoi un livre d'or
 
-Les bureau dépend largement sur ses contributeurs et collaborateurs. Nous pourrons ainsi se
+Les bureau dépend largement sur ses contributeurs et collaborateurs. Nous pourrons ainsi nous souvenir des
+personnes qui ont apporté leurs idées et savoir faires à notre équipe.
+
+L'idée est également de permettre à chacun de partager les projets ou les idées qu'ils
+ont pris le plus de plaisir à partager. Il ne s'agit donc pas de faire une liste
+exhaustive, mais bien remonter ceux que vous avez préféré.
 
 # Règles du jeu
 
@@ -25,6 +30,10 @@ Le jeu consiste à alimenter ce slideshow par du code, et que ce soit agréable 
 # Contact
 
 Passer par les [issues Github](https://github.com/adriens/livre-or-collaborateurs-glia-slideshow/issues) du projet.
+
+# Accéder au site
+
+Le site web est accessible ici: [http://bit.ly/2TBXHq1](http://bit.ly/2TBXHq1)
 
 
 
