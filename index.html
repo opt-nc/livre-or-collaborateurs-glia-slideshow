@@ -32,7 +32,7 @@
 			   </section>
 
 			   <!-- Ronny Soutart -->
-			   <section w3-include-html="contributors/rsoutart"></section>
+			   <section data-external="contributors/rsoutart"></section>
 
 			</div>
 		</div>
@@ -52,7 +52,12 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/external/external.js', 
+    					condition: function() { 
+        					return !!document.querySelector( '[data-external],[data-external-replace]' ); 
+    					} 
+					}, 
 				]
 			});
 		</script>
