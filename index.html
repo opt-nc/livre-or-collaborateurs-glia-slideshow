@@ -13,6 +13,9 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
 
+		<!-- Contributors styles -->
+		<link rel="stylesheet" href="contributors/rsoutart/style.css">
+
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -32,13 +35,12 @@
 			   </section>
 
 			   <!-- Ronny Soutart -->
-			   <section w3-include-html="contributors/rsoutart"></section>
+			   <section data-external="contributors/rsoutart"></section>
 
 			</div>
 		</div>
 
 		<script src="js/reveal.js"></script>
-		<script src="js/includeHtml.js"></script>
 
 		<script>
 			// More info about config & dependencies:
@@ -52,11 +54,14 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/external/external.js', 
+    					condition: function() { 
+        					return !!document.querySelector( '[data-external],[data-external-replace]' ); 
+    					} 
+					}, 
 				]
 			});
 		</script>
-		<script>includeHTML();</script>
-
 	</body>
 </html>
