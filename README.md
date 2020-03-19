@@ -27,6 +27,20 @@ Le jeu consiste à alimenter ce slideshow par du code, et que ce soit agréable 
 - On the touche pas aux slides des autres collaborateurs: "chacun sa colonne"
 - Information minmale collaborateur: Prénom et Nom, période d'activité, photo/avatar, lien vers réseaux sociaux en lien avec le dév (linkedIn, twitter) projets réalisés et slide donnant une phrase résumant son expérience au sein du bureau
 
+# Lancer le projet
+
+## Installation
+
+```sh
+$ yarn install
+```
+
+## Lancement en local
+
+```sh
+$ yarn run start
+```
+
 # Contact
 
 Passer par les [issues Github](https://github.com/adriens/livre-or-collaborateurs-glia-slideshow/issues) du projet.
