@@ -4,10 +4,12 @@
 
 
 <!-- presentation -->
-<section data-transition="slide" data-background="#ededed" data-background-transition="zoom">
+<section data-transition="slide" data-background="#ededed" data-background-transition="zoom" data-autoslide="1000">
+    <img class="rso-rm-img-style" style="margin: 0px;" height="100px" src="img/rsoutart/avatar_rnd.png">
+
     <h3>Développeur</h3>
     
-    <img class="rso-rm-img-style" style="margin: 0px;" height="100px" src="img/rsoutart/skazy.svg">
+    <img class="rso-rm-img-style" style="margin: 0px; border:1px" height="100px" src="img/rsoutart/skazy.svg">
     <div class="fragment fade-up">
         <img class="rso-rm-img-style" style="vertical-align: middle;" height="60px" src="img/rsoutart/spring.png">
         <span style="margin: 0 30px">-</span>
@@ -22,10 +24,18 @@
 </section>
 
 <!-- contributions -->
-<section data-background="img/rsoutart/bg/contributions.png">
+<section data-background="img/rsoutart/bg/contributions.png" data-autoslide="3000">
+    <!-- header -->
+    <div class="rso-header-box">
+        <div class="rso-row">
+            <div class="rso-column" style="text-align: left;">Ronny Soutart</div>
+            <div class="rso-column" style="text-align: right;">2 / 10</div>
+        </div>
+    </div>
+
     <div class="rso-black-box">
-        <h3 style="margin-bottom: 0px;">Contributions <span class="fragment highlight-red">Build-Run</span></h3>
-        <p style="font-size: 30px; margin-top: 0px;">Applications SOCLE</p>
+        <h3 style="margin-bottom: 0px;">Contributions <span style="color:red">Build-Run</span></h3>
+        <p style="font-size: 30px; margin-top: 0px;">Applications SOCLE sur lesquelles je suis intervenu</p>
         <ul style="font-size: 34px;">
             <li>EOLE</li>
             <li>DATADIFF</li>
@@ -49,15 +59,26 @@
     </div>
 </section>
 
-<section data-background="img/rsoutart/bg/eole.jpeg">
+<!-- eole -->
+<section data-background="img/rsoutart/bg/eole.jpeg" data-autoslide="3000">
+    <!-- header -->
+    <div class="rso-header-box">
+        <div class="rso-row">
+            <div class="rso-column" style="text-align: left;">Ronny Soutart</div>
+            <div class="rso-column" style="text-align: right;">3 / 10</div>
+        </div>
+    </div>
+
     <div class="rso-black-box">
         <h3>EOLE</h3>
         <p>Extraire, Transformer, Charger</p>
-        <p class="fragment" style="font-size: 25px;">
-            Ce projet en cours, m'a permis d'entrer dans le vif du sujet en brassant les différentes <span class="fragment highlight-red">technos et organisations</span> de la DSI.
-            Ainsi que ma première expérience en tant que <span class="fragment highlight-red">Scrum Master</span> (par intérim).
-        </p>
-        <img class="rso-rm-img-style fragment" style="vertical-align: middle;margin: 0px;" height="65px" src="img/rsoutart/scrum.png">
+        <div class="fragment">
+            <p style="font-size: 25px;">
+                Ce projet en cours, m'a permis d'entrer dans le vif du sujet en brassant les différentes <span style="color:red">technos et organisations</span> de la DSI.
+                Ainsi que ma première expérience en tant que <span style="color:red">Scrum Master</span>.
+            </p>
+            <img class="rso-rm-img-style" style="vertical-align: middle;margin: 0px;" height="65px" src="img/rsoutart/scrum.png">
+        </div>
     </div>
     <div class="fragment fade-up" style="box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(255, 255, 255, 0.2); background-color: rgba(255, 255, 255, 0.9);padding: 0px;">
         <div style="color:black;font-size: 20px;">
@@ -65,26 +86,37 @@
             <span style="margin: 0 25px">x</span>
             <img class="rso-rm-img-style" style="vertical-align: middle;"height="60px" src="img/rsoutart/oracle.png">
             <span style="margin: 0 25px">x</span>
+            <img class="rso-rm-img-style" style="vertical-align: middle;" height="40px" src="img/rsoutart/postgresql.png">            
+            <span style="margin: 0 25px">x</span>
             <img class="rso-rm-img-style" style="vertical-align: middle;" height="35px" src="img/rsoutart/file.png">
             <span style="margin: 0 25px">x</span>
             <img class="rso-rm-img-style" style="vertical-align: middle;" height="60px" src="img/rsoutart/webservices.png">            
             <span style="margin: 0 25px">x</span> ...
         </div>
-    </div>    
+    </div>
 </section>
 
-<section data-background="img/rsoutart/bg/optisee.jpg">
+<section data-background="img/rsoutart/bg/optisee.jpg" data-autoslide="3000">
+    <!-- header -->
+    <div class="rso-header-box">
+        <div class="rso-row">
+            <div class="rso-column" style="text-align: left;">Ronny Soutart</div>
+            <div class="rso-column" style="text-align: right;">4 / 10</div>
+        </div>
+    </div>
+    
     <div class="rso-black-box">
         <h3>OPTISEE</h3>
-        <p>Robustesse & Disponibilité</p>
-        <p class="fragment" style="font-size: 25px;">
-            Reprise du projet rondement bien mené par le <span class="fragment highlight-red">bureau RC</span> (Relation Client), est déjà bien solide pour parer à toute éventualités. Comme pour
-            EOLE, OPTISEE est l'un des projet idéal pour se rendre compte de la <span class="fragment highlight-red">transversalité de la donnée</span>.
-        </p>
+        <p>Robustesse & Disponibilité avant tout</p>
         <div class="fragment">
-            <img class="rso-rm-img-style" style="vertical-align: middle;" height="60px" src="img/rsoutart/isee.png">
-            <span style="margin: 0 25px;font-size: 25px;">x</span>
-            <img class="rso-rm-img-style" style="vertical-align: middle;"height="60px" src="img/rsoutart/opt.png">
+            <p style="font-size: 25px;">
+                Comme pour EOLE, OPTISEE est l'un des projet idéal pour se rendre compte de la <span style="color:red">transversalité de la donnée</span>.
+            </p>
+            <div>
+                <img class="rso-rm-img-style" style="vertical-align: middle;" height="60px" src="img/rsoutart/isee.png">
+                <span style="margin: 0 25px;font-size: 25px;">x</span>
+                <img class="rso-rm-img-style" style="vertical-align: middle;"height="60px" src="img/rsoutart/opt.png">
+            </div>
         </div>
     </div>
     <div class="fragment fade-up" style="box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(255, 255, 255, 0.2); background-color: rgba(255, 255, 255, 0.9);padding: 0px;">
@@ -98,16 +130,25 @@
     </div>
 </section>
 
-<section data-background="img/rsoutart/bg/refged.jpg">
+<section data-background="img/rsoutart/bg/refged.jpg" data-autoslide="3000">
+    <!-- header -->
+    <div class="rso-header-box">
+        <div class="rso-row">
+            <div class="rso-column" style="text-align: left;">Ronny Soutart</div>
+            <div class="rso-column" style="text-align: right;">5 / 10</div>
+        </div>
+    </div>
+
     <div class="rso-black-box">
         <h3>REFGED</h3>
-        <p>Résurection à haute valeur(s)</p>
-        <p class="fragment" style="font-size: 25px;">
-            Sortie de son sommeil de <span class="fragment highlight-red">2 ans</span>, l'application fait peau neuve avec refonte <span class="fragment highlight-red">BACK et FRONT</span>.
-            Revue des écrans pour ma part pour améliorer l'ergonomie, mais aussi la (re)-découverte de <span class="fragment highlight-red">REDUX</span> 
-            et de nouvelles collaborations !
-        </p>
-        <img class="rso-rm-img-style fragment" style="vertical-align: middle;margin: 0px;" height="100px" src="img/rsoutart/collabs.png">
+        <p>Résurrection à haute valeur(s)</p>
+        <div class="fragment">
+            <p style="font-size: 25px;">
+                Revue des écrans pour ma part pour améliorer l'ergonomie, mais aussi la (re)-découverte de <span style="color:red">REDUX</span> 
+                et de nouvelles collaborations !
+            </p>
+            <img class="rso-rm-img-style" style="vertical-align: middle;margin: 0px;" height="100px" src="img/rsoutart/collabs.png">
+        </div>
     </div>
     <div class="fragment fade-up" style="box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(255, 255, 255, 0.2); background-color: rgba(255, 255, 255, 0.9);padding: 0px;">
         <div style="color:black;font-size: 25px;">
@@ -115,19 +156,24 @@
             <span style="margin: 0 25px">x</span>
             <img class="rso-rm-img-style" style="vertical-align: middle;" height="65px" src="img/rsoutart/ui-design.jpg">
         </div>
-    </div>    
+    </div>
 </section>
 
-<section data-background="img/rsoutart/bg/innovations.jpg">
+<section data-background="img/rsoutart/bg/innovations.jpg" data-autoslide="3000">
+    <!-- header -->
+    <div class="rso-header-box">
+        <div class="rso-row">
+            <div class="rso-column" style="text-align: left;">Ronny Soutart</div>
+            <div class="rso-column" style="text-align: right;">6 / 10</div>
+        </div>
+    </div>
+
     <div class="rso-black-box">
-        <h3>Contributions <span class="fragment highlight-blue">Innovation</span></h3>
+        <h3>Contributions <span style="color:royalblue">Innovation</span></h3>
         <p>
             <ul style="font-size: 34px;">
                 <li>COLISNC</li>
-                <li>EAUX BAIGNADES</li>
-                <li>CINECITY :)</li>
-                <li>TEMPS ATTENTES</li>
-                <li>EMPLOIS-NC</li>
+                <li>Nouméa plages</li>
             </ul>
         </p>
     </div>
@@ -146,21 +192,35 @@
     </div>
 </section>
 
-<section data-background="img/rsoutart/bg/innovations.jpg">
+<section data-background="img/rsoutart/bg/colisnc.jpg" data-autoslide="3000">
+    <!-- header -->
+    <div class="rso-header-box">
+        <div class="rso-row">
+            <div class="rso-column" style="text-align: left;">Ronny Soutart</div>
+            <div class="rso-column" style="text-align: right;">7 / 10</div>
+        </div>
+    </div>
+
     <div class="rso-black-box">
         <h3>COLIS NC</h3>
         <p>Pionnier du DISRUPT OPT</p>
-        <p class="fragment" style="font-size: 25px;">
-            Porte étandard de l'innovation au sein de GLIA, ce projet m'a permis d'en apprendre plus sur le développement mobile
-            en <span class="fragment highlight-blue">Flutter</span> (by Google), les méthodes de travail en mode start-up, des livraisons à haute <span class="fragment highlight-blue">fréquences/valeurs</span> 
-            et les avantages du <span class="fragment highlight-blue">Cloud</span>.
-        </p>
-        <img class="rso-rm-img-style fragment" style="vertical-align: middle;margin: 0px;" height="90px" src="img/rsoutart/cloud.png">
+        <div class="fragment">
+            <p style="font-size: 25px;">
+                Porte étandard de l'innovation au sein de GLIA, ce projet m'a permis d'en apprendre plus sur le développement mobile
+                en <span style="color:royalblue">Flutter</span> (by Google), les méthodes de travail en mode start-up, des livraisons à haute <span style="color:royalblue">fréquences/valeurs</span> 
+                et les avantages du <span style="color:royalblue">Cloud</span>.
+            </p>
+            <img class="rso-rm-img-style" style="vertical-align: middle;margin: 0px;" height="90px" src="img/rsoutart/cloud.png">
+        </div>
     </div>
     <div class="fragment fade-up" style="box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(255, 255, 255, 0.2); background-color: rgba(255, 255, 255, 0.9);padding: 0px;">
         <div style="color:black;font-size: 25px;">
             <img class="rso-rm-img-style" style="vertical-align: middle;" height="32px" src="img/rsoutart/flutter.png">
             <span style="margin: 0 25px">x</span>
+            <img class="rso-rm-img-style" style="vertical-align: middle;" height="40px" src="img/rsoutart/android.png">
+            <span style="margin: 0 25px">x</span>
+            <img class="rso-rm-img-style" style="vertical-align: middle;" height="38px" src="img/rsoutart/apple.png">
+            <span style="margin: 0 25px">x</span>            
             <img class="rso-rm-img-style" style="vertical-align: middle;" height="35px" src="img/rsoutart/github.png">
             <span style="margin: 0 25px">x</span>
             <img class="rso-rm-img-style" style="vertical-align: middle;" height="45px" src="img/rsoutart/rapidapi.png">
@@ -168,10 +228,72 @@
     </div>
 </section>
 
-<section>
-    <blockquote>"La routourne va vite tourner"</blockquote>
+<section data-background="img/rsoutart/bg/noumeaplages.jpg" data-autoslide="3000">
+    <!-- header -->
+    <div class="rso-header-box">
+        <div class="rso-row">
+            <div class="rso-column" style="text-align: left;">Ronny Soutart</div>
+            <div class="rso-column" style="text-align: right;">8 / 10</div>
+        </div>
+    </div>
+
+    <div class="rso-black-box">
+        <h3>Noumea plages</h3>
+        <p>Du développement à la publication</p>
+        <div class="fragment">
+            <p style="font-size: 25px;">
+                Toujours en Flutter, l'application est disponible sur le <span style="color:royalblue">Playstore Android</span>.
+            </p>
+            <p style="font-size: 16px;">
+                Soyez vigilant sur l'état des plages de Nouméa !
+            </p>
+            <img class="rso-rm-img-style" style="vertical-align: middle;margin: 0px;" height="90px" src="img/rsoutart/playstorecaddie.png">
+        </div>
+    </div>
+    <div class="fragment fade-up" style="box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(255, 255, 255, 0.2); background-color: rgba(255, 255, 255, 0.9);padding: 0px;">
+        <div style="color:black;font-size: 25px;">
+            <img class="rso-rm-img-style" style="vertical-align: middle;" height="32px" src="img/rsoutart/flutter.png">
+            <span style="margin: 0 25px">x</span>
+            <img class="rso-rm-img-style" style="vertical-align: middle;" height="40px" src="img/rsoutart/android.png">
+            <span style="margin: 0 25px">x</span>            
+            <img class="rso-rm-img-style" style="vertical-align: middle;" height="35px" src="img/rsoutart/github.png">
+            <span style="margin: 0 25px">x</span>
+            <img class="rso-rm-img-style" style="vertical-align: middle;" height="45px" src="img/rsoutart/rapidapi.png">
+            <span style="margin: 0 25px">=</span>
+            <img class="rso-rm-img-style" style="vertical-align: middle;" height="40px" src="img/rsoutart/playstore.png">            
+        </div>
+    </div>
 </section>
 
 <section>
-    <h3>Contacts</h3>
+    <!-- header -->
+    <div class="rso-header-box">
+        <div class="rso-row">
+            <div class="rso-column" style="text-align: left;">Ronny Soutart</div>
+            <div class="rso-column" style="text-align: right;">9 / 10</div>
+        </div>
+    </div>
+
+    <img class="rso-rm-img-style" style="margin-top: 80px;margin-bottom: 30px;" height="150px" src="img/rsoutart/avatar_rnd.png">
+
+    <blockquote>"Chez moi, ça marche..."</blockquote>
+</section>
+
+<section data-background-iframe="https://www.skazy.nc">
+    <!-- header -->
+    <div class="rso-header-box">
+        <div class="rso-row">
+            <div class="rso-column" style="text-align: left;">Ronny Soutart</div>
+            <div class="rso-column" style="text-align: right;">10 / 10</div>
+        </div>
+    </div>    
+    <div class="rso-black-box">
+        <img class="rso-rm-img-style" height="150px" src="img/rsoutart/avatar_rnd.png">
+        <h3>Contacts</h3>
+        <img class="rso-rm-img-style" style="vertical-align: middle;" height="40px" src="img/rsoutart/gmail.ico"> soutartronny@gmail.com<br>
+        <img class="rso-rm-img-style" style="vertical-align: middle;" height="40px" src="img/rsoutart/linkedin.png"> ronny-soutart-469a10197<br>
+        <img class="rso-rm-img-style" style="vertical-align: middle;" height="40px" src="img/rsoutart/github_light.png"> @HakumenNC - 
+        <img class="rso-rm-img-style" style="vertical-align: middle;" height="40px" src="img/rsoutart/gitlab.png"> @ronny.soutart
+    </div>
+
 </section>
