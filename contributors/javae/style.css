@@ -1,0 +1,134 @@
+.jae-profile-card{
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+    border-radius: 12px;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    min-height: 450px;
+}
+
+.jae-left-card{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px 0 0px 12px;
+}
+
+.jae-right-card{
+    position: absolute;
+    left: 80%;
+    width: 20%;
+    height: 100%;
+    border-radius: 12px 0 0px 12px;
+}
+
+.jae-content-card{
+    position: relative;
+    height: 90%;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 12px 0 0;
+}
+.jae-contentFull-card{
+    height: 100%;
+    border-radius: 0 12px 12px 0;
+}
+
+.jae-contentRight-card{
+    left: 20%;
+}
+.jae-contentLeft-card{
+    border-radius: 12px 0 0 0 ;
+
+}
+.jae-techno-card {
+    z-index:0;
+    width: 100%;
+}
+
+.jae-js-card {
+    height: 33%;
+    border-radius: 12px 0 0 0;
+    background-color: #ffcc66;
+}
+
+.jae-bg-transparent {
+    background-color: transparent !important;;
+}
+
+.jae-default-card {
+    height: 33%;
+}
+.jae-ng-card {
+    height: 33%;
+    background-color: #cc6666;
+}
+.jae-ionic-card {
+    border-radius: 0 0 0 12px;
+    height: 34%;
+    background-color: #3399ff;
+}
+
+.jae-photo-card{
+    border:none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;  
+    position: relative;
+    box-shadow: 0px 8px 60px -10px rgba(13,28,39,0.6);
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+.jae-title-card {
+    padding: 5%;    
+    color: black !important;
+}
+.jae-titleSocial-card {
+    height: 33%;
+    color: black !important;
+    text-align: center;
+}
+
+.jae-subtitle-card {
+    color: black !important;
+    font-size: 0.6em !important;
+}
+
+.jae-text-card {
+    color: black !important;
+    font-size: 0.5em !important;
+    padding-top: 5%;  
+}
+
+.jae-bottom-card {
+    z-index: 10;
+    height: 10%;
+    width: 100%;
+    background-color: #ffcc66;
+    border-radius: 0 0 12px 12px;
+    color: black !important;
+
+}
+
+.jae-bottom-card h5 {
+    font-size: 0.6em;
+    color: black !important;
+}
+
+.jae-bottom-card p {    
+    float: left;
+    width: 48%;
+    font-size: 0.6em;    
+    color: black !important;    
+}
+
+.jae-bottom-card p:nth-child(1) {    
+    text-align: left;
+}
+
+.jae-bottom-card p:nth-child(2) {    
+    text-align: right;
+}
+
