@@ -1,0 +1,73 @@
+.eb-img-style {
+    border:none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;    
+    height:40px;  
+}
+
+#eb-avatar {
+	vertical-align: middle;
+	width: 120px;
+	border-radius: 50%;
+}
+
+.eb-black-box {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 50px;       
+}
+
+.eb-black-box-index {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5em;  
+    padding-left: 2rem;
+    padding-right: 2rem;  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.eb-black-box-contact {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+
+.eb-black-box h3 h4 { color: white; }
+.eb-black-box > p, .row > p { font-size: x-large; }
+
+.eb-white-box {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2);
+    background-color: rgba(254, 254, 249, 1.0); 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: black; 
+    margin-top: 0;
+}
+
+.eb-white-box > p { font-size: medium; }
+
+.vertical-divider { border-left: 1px solid rgba(0,0,0,0.2); }
+
+li { font-size: xx-large; }
+
+.d-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.row { display: flex; justify-content: start;}
+.row > img { padding-top : 2px; padding-right: 50px;}
+
+#gmail-img { padding-top : 5px; }

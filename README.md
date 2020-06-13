@@ -31,6 +31,10 @@ Le jeu consiste à alimenter ce slideshow par du code, et que ce soit agréable 
 
 ## Installation
 
+1 - Forker cette repo sur votre compte personnel
+2 - Cloner la repo sur votre poste
+3 - Aller dans le répertoire et faire tourner le site cf instructions ci-dessous:
+
 ```sh
 $ yarn install
 ```
