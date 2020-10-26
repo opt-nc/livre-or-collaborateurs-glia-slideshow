@@ -1,7 +1,7 @@
 # Livre d'or des collaborateurs du GLIA
 
 
-Ceci est le livre d'or des collaborateurs qui ont contribué au développement du [bureau GLIA](https://www.linkedin.com/posts/adrien-sales_paroles-dagent-adrien-sales-activity-6636763415731896320-PSkG), à la de la
+Ceci est le livre d'or des collaboratrices et collaborateurs qui ont contribué au développement du [bureau GLIA](https://www.linkedin.com/posts/adrien-sales_paroles-dagent-adrien-sales-activity-6636763415731896320-PSkG), à la de la
 DSI de l'[OPT-NC](https://www.linkedin.com/company/opt-new-caledonia/).
 
 Le support est un site se basant sur [REVEAL.JS](https://revealjs.com/#/). C'est un slideshow responsive

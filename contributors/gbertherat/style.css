@@ -1,0 +1,114 @@
+/** GLOBAL **/
+.gb-main-box, .gb-page-box{
+    text-transform: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.gb-page-box{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.gb-box-header{
+    padding-top:20px;
+    font-size: 32px !important;
+}
+
+.gb--hr{
+    width: 90%;
+    border: 0.01em solid rgba(255, 255, 255, 0.1);
+}
+
+.gb--logo, .gb--photo{
+    background-color: transparent !important;
+    box-shadow: none !important;    
+}
+
+.gb--photo{
+    width:96px;
+    border:none !important;
+}
+
+.gb--border{
+    border: white 1px solid !important;
+}
+
+.gb-box-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size:28px;
+}
+
+.gb-p-content{
+    text-align: left;
+    margin-left:10px;
+}
+
+.gb--description{
+    padding:10px 40px;
+    text-align: justify;
+    font-size: 26px;
+}
+
+.gb--date{
+    font-size: 24px;
+}
+
+/* FOOTER */
+
+.gb-box-footer{
+    width: 100%;
+    display:inline-flex;
+    justify-content: space-evenly;
+
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 10px 10px;
+}
+
+.gb-box-footer .gb--logo{
+    height: 80px;
+    
+    border: none;
+    border-radius: 10px;
+}
+
+/* PAGINATION */
+
+.gb-page-box p{
+    padding: 0 16px;
+    font-size: 21px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/** CONTACTS **/
+
+.gb-contact-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gb--contact{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gb--contact p{
+    text-align: left;
+    width: 300px;
+    margin-left:10px;
+    font-size: 24px;
+}
+
+.gb--contact img{
+    width:64px;
+    height:64px;
+    border-radius: 10px;
+}
