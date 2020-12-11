@@ -54,6 +54,14 @@
     font-size: 26px;
 }
 
+.gb-box-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding:8px;
+}
+
 .gb--date{
     font-size: 24px;
 }
