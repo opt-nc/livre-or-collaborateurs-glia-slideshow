@@ -1,82 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-		<title>Livre d'Or GLIA</title>
+    <title>Livre d'Or GLIA</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
 
-		<!-- Contributors styles -->
-		<link rel="stylesheet" href="contributors/rsoutart/style.css">
-		<link rel="stylesheet" href="contributors/javae/style.css">
-		<link rel="stylesheet" href="contributors/ebossart/style.css">
-		<link rel="stylesheet" href="contributors/gbertherat/style.css">
-		<link rel="stylesheet" href="contributors/pluaki/style.css">
-		<link rel="stylesheet" href="contributors/mbarre/style.css">
+    <!-- Contributors styles -->
+    <link rel="stylesheet" href="contributors/rsoutart/style.css" />
+    <link rel="stylesheet" href="contributors/javae/style.css" />
+    <link rel="stylesheet" href="contributors/ebossart/style.css" />
+    <link rel="stylesheet" href="contributors/gbertherat/style.css" />
+    <link rel="stylesheet" href="contributors/pluaki/style.css" />
+    <link rel="stylesheet" href="contributors/mbarre/style.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-background-transition="slide" data-background="img/cover.jpg">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background-transition="slide" data-background="img/cover.jpg">
+          <h3>Livre d'or du GLIA</h3>
+          <blockquote>"Les contributeurs passent, les contributions restent."</blockquote>
+        </section>
 
-					<h3>Livre d'or du GLIA</h3>
-					<blockquote>"Les contributeurs passent, les contributions restent."</blockquote>
-			   </section>
+        <!-- Ronny Soutart -->
+        <section data-external="contributors/rsoutart"></section>
+        <!-- Jimmy Avae -->
+        <section data-external="contributors/javae"></section>
+        <!-- Emilie Bossart -->
+        <section data-external="contributors/ebossart"></section>
+        <!-- Guillaume Bertherat -->
+        <section data-external="contributors/gbertherat"></section>
+        <!-- Pipiena Luaki -->
+        <section data-external="contributors/pluaki"></section>
+        <!-- Michèle Barré -->
+        <section data-external="contributors/mbarre"></section>
+		<!-- Daniel Santos -->
+        <section data-external="contributors/dsantos"></section>
+      </div>
+    </div>
 
-			   <!-- Ronny Soutart -->
-			   <section data-external="contributors/rsoutart"></section>
-			   <!-- Jimmy Avae -->
-			   <section data-external="contributors/javae"></section>
-			   <!-- Emilie Bossart -->
-			   <section data-external="contributors/ebossart"></section>
-			   <!-- Guillaume Bertherat -->
-			   <section data-external="contributors/gbertherat"></section>
-			   <!-- Pipiena Luaki -->
-			   <section data-external="contributors/pluaki"></section>
-				<!-- Michèle Barré -->
-				<section data-external="contributors/mbarre"></section>
+    <script src="js/reveal.js"></script>
 
-			</div>
-		</div>
-
-		<script src="js/reveal.js"></script>
-
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				autoSlide: 5000,
-            	loop: true,
-				hash: true,
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/external/external.js', 
-    					condition: function() { 
-        					return !!document.querySelector( '[data-external],[data-external-replace]' ); 
-    					} 
-					}, 
-				]
-			});
-		</script>
-	</body>
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        autoSlide: 5000,
+        loop: true,
+        hash: true,
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/highlight/highlight.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          {
+            src: 'plugin/external/external.js',
+            condition: function () {
+              return !!document.querySelector('[data-external],[data-external-replace]');
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
 </html>
