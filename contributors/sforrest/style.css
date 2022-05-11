@@ -1,0 +1,117 @@
+.sf-img-style {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  height: 40px;
+}
+
+.sf a {
+  display: inline-flex;
+}
+
+#sf-avatar {
+  vertical-align: middle;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.sf-black-box {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 50px;
+}
+
+.sf-black-box-index {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.5em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.sf-black-box-contact {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+}
+
+.sf-white-box-contact {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: black;
+  margin-top: 0;
+}
+
+.sf-white-box-contact h3 {
+  color: black;
+}
+
+.sf-black-box h3 h4 {
+  color: white;
+}
+
+.sf-black-box>p,
+.row>p {
+  font-size: x-large;
+}
+
+.sf-white-box {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.2);
+  background-color: rgba(254, 254, 249, 1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: black;
+  margin-top: 0;
+}
+
+.sf-white-box>p {
+  font-size: medium;
+}
+
+.sf .vertical-divider {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.sf .li {
+  font-size: xx-large;
+}
+
+.sf .d-grid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.sf .row {
+  display: flex;
+  justify-content: start;
+}
+
+.sf .row>img {
+  padding-top: 2px;
+  padding-right: 5px;
+}
+
+#sf-mail-img {
+  padding-top: 5px;
+}
+
+#sf-contact a {
+  color: rgba(0, 0, 0, 1)
+}
