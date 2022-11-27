@@ -51,7 +51,7 @@ Passer par les [issues Github](https://github.com/adriens/livre-or-collaborateur
 
 # Accéder au site
 
-Le site web est accessible ici: [http://bit.ly/2TBXHq1](https://bit.ly/3lgS8Zb)
+Le site web est accessible ici: [https://bit.ly/3RuNs1o](https://bit.ly/3RuNs1o)
 
 
 
