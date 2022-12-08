@@ -1,16 +1,16 @@
-.rso-black-box {
+.dsa-black-box {
     box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2);
     background-color: rgba(0, 0, 0, 0.9);
     padding: 25px;        
 }
 
-.rso-rm-img-style {
+.dsa-rm-img-style {
     border:none !important;
     background-color: transparent !important;
     box-shadow: none !important;      
 }
 
-.rso-header-box {
+.dsa-header-box {
     box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2);
     background-color: rgba(0, 0, 0, 0.9);
     margin-bottom: 25px;
@@ -18,13 +18,13 @@
     font-size: 30px;
 }
 
-.rso-column {
+.dsa-column {
     float: left;
     width: 50%;
   }
   
 /* Clear floats after the columns */
-.rso-row:after {
+.dsa-row:after {
     content: "";
     display: table;
     clear: both;
